@@ -1,77 +1,62 @@
 # Hi, I'm Jarno Nousiainen
 
-IT Specialist from Finland with 20+ years of experience in Windows Server, Microsoft 365, Microsoft Entra ID, Intune, Exchange Online, PowerShell and infrastructure operations.
+IT Specialist from Finland with 20+ years of experience in Windows Server, Active Directory, Group Policy, Microsoft 365, Microsoft Entra ID, Microsoft Intune, Exchange Online, PowerShell and infrastructure operations.
 
-I build practical PowerShell scripts, reporting tools and documentation for IT auditing, operational visibility and defensive administration.
-
-My focus is on read-only audit tooling that helps IT teams understand their environments clearly, safely and without unnecessary complexity.
+I build practical PowerShell tools, reporting scripts and automation packages for IT auditing, operational visibility and controlled endpoint remediation.
 
 ## Focus areas
 
-* Microsoft 365 and Microsoft Entra ID
-* Intune endpoint management
-* Exchange Online administration
-* Windows Server and Active Directory
-* Group Policy auditing and documentation
-* PowerShell automation and reporting
-* Certificate and credential expiry auditing
-* Infrastructure visibility and operational reporting
-* Read-only audit tooling for controlled environments
-* GitHub-based documentation, testing and repository hygiene
-
-## What I publish here
-
-This GitHub profile contains practical PowerShell scripts and IT operations tools focused on read-only auditing, reporting and documentation.
-
-The goal is to make common infrastructure checks easier to run, easier to review and easier to explain.
-
-My repositories are built with a public-safe mindset, including clear documentation, sanitized examples, branch protection, secret scanning, CI checks and safety-focused review practices where applicable.
-
-## Current projects
-
-* Microsoft 365 and Entra ID credential expiry auditing
-* Entra ID privileged access and role assignment auditing
-* Intune Windows inventory and policy reporting
-* Exchange Online mailbox, group and forwarding audits
-* Active Directory and Group Policy audit reporting
-* Windows certificate and service account auditing
-* HTML and CSV reporting for operational visibility
-* Public-safe PowerShell audit script repository with CI checks and documentation
-
-## Repository principles
-
-* Read-only by default
-* Clear and practical output
-* No hardcoded customer data
-* No generated customer reports committed to public repositories
-* Documentation included where possible
-* Sanitized examples for public sharing
-* Tested with GitHub Actions where applicable
-* Secret scanning and public safety checks where applicable
-* Designed for lab, testing and controlled production review
-* Review before use and adapt to your own environment
-
-## Background
-
-I have worked with IT infrastructure, support, systems administration and Microsoft environments across different roles and organizations.
-
-My technical background includes Windows Server, Active Directory, Group Policy, Microsoft 365, Exchange Online, Azure / Microsoft Entra ID, Intune, virtualization, Linux basics, SQL Server, PowerShell, IT operations documentation and infrastructure troubleshooting.
-
-I enjoy building tools that turn scattered technical information into something easier to understand, document and act on.
+- Windows Server and Active Directory
+- Microsoft 365 and Exchange Online
+- Microsoft Entra ID
+- Microsoft Intune
+- PowerShell automation
+- Endpoint management
+- IT auditing and reporting
+- Operational documentation
+- Public-safe scripting practices
 
 ## Featured work
 
-* PowerShell audit and reporting scripts for Microsoft and Windows environments
-* Read-only operational audit tooling
-* HTML and CSV reporting for infrastructure visibility
-* GitHub repositories with documentation, branch protection and automated quality checks
+### PowerShell Audit Scripts
+
+Public-safe PowerShell audit and reporting toolkit for Windows Server, Active Directory, Group Policy, Microsoft 365, Exchange Online, Microsoft Entra ID and Microsoft Intune environments.
+
+The repository demonstrates read-only audit scripting, structured reporting, GitHub Actions quality checks, Pester tests, PSScriptAnalyzer, secret scanning, public safety checks, MIT licensing, branch protection and GitHub Pages documentation.
+
+- Repository: https://github.com/Jarnon404/powershell-audit-scripts
+- Documentation: https://jarnon404.github.io/powershell-audit-scripts/
+
+### Intune Winget App Updater
+
+Controlled Microsoft Intune Proactive Remediation package for updating approved Windows applications with `winget`.
+
+The repository includes detection and remediation scripts, offline technician tooling, GitHub Actions quality checks, Pester tests, PSScriptAnalyzer, secret scanning, public safety checks, MIT licensing, versioned releases and GitHub Pages documentation.
+
+This repository is intentionally documented as a remediation package, not as a read-only audit project, because the remediation script can update applications on managed Windows devices.
+
+- Repository: https://github.com/Jarnon404/intune-winget-app-updater
+- Documentation: https://jarnon404.github.io/intune-winget-app-updater/
+
+## Repository principles
+
+The repositories I publish are intended to be:
+
+- practical
+- documented
+- testable
+- public-safe
+- reusable
+- clear about risk and operational impact
+
+I prefer controlled scripts, readable output and explicit documentation over clever one-liners that become archaeology after six months.
+
+## Background
+
+I have worked with IT infrastructure, support, systems administration, identity, endpoint management and Microsoft environments across on-premises, hybrid and cloud-based setups.
+
+My work usually combines hands-on troubleshooting, scripting, documentation, operational improvement and translating technical issues into something people can actually act on, which remains oddly rare in the year of our cloud dashboards.
 
 ## Website
 
-https://www.nousiainen.eu
-
-## Notes
-
-The scripts and tools published here are intended for learning, operational review and defensive administration.
-
-They are provided as-is and should always be reviewed, tested and adapted in a lab, sandbox, pilot group or other non-production environment before wider use.
+- https://nousiainen.eu/it-osaaja
