@@ -7,9 +7,11 @@ I build practical PowerShell tools, reporting scripts and automation packages fo
 ## Focus areas
 
 - Windows Server and Active Directory
-- Microsoft 365 and Exchange Online
+- Group Policy
+- Microsoft 365
 - Microsoft Entra ID
 - Microsoft Intune
+- Exchange Online
 - PowerShell automation
 - Endpoint management
 - IT auditing and reporting
@@ -55,7 +57,7 @@ I prefer controlled scripts, readable output and explicit documentation over cle
 
 I have worked with IT infrastructure, support, systems administration, identity, endpoint management and Microsoft environments across on-premises, hybrid and cloud-based setups.
 
-My work usually combines hands-on troubleshooting, scripting, documentation, operational improvement and translating technical issues into something people can actually act on, which remains oddly rare in the year of our cloud dashboards.
+My work usually combines hands-on troubleshooting, scripting, documentation, operational improvement and translating technical issues into something people can actually act on.
 
 ## Website
 
