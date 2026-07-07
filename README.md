@@ -1,99 +1,76 @@
 # Hi, I'm Jarno Nousiainen
 
-IT Specialist from Finland with 20+ years of experience in Windows Server, Active Directory, Group Policy, Microsoft 365, Microsoft Entra ID, Microsoft Intune, Exchange Online, PowerShell, Linux administration and infrastructure operations.
+IT Specialist from Finland with 20+ years of experience in Windows Server, Active Directory, Group Policy, Microsoft 365, Microsoft Entra ID, Microsoft Intune, Exchange Online, PowerShell, Linux and infrastructure operations.
 
-My roots go back to late 1980s and early 1990s DOS systems, especially MS-DOS 5 era PCs. Since then, the tools have changed from `CONFIG.SYS` and `AUTOEXEC.BAT` to cloud portals, endpoint management and automation pipelines, but the core idea is still the same: understand the system, document it clearly and fix things without creating new chaos. Humanity has bravely renamed this “modern IT operations”.
+I build practical tools for IT auditing, endpoint management, security reporting, automation and system health checks. My focus is on clear reporting, safe automation and public-safe scripts that can be shared without customer-specific data.
 
-I build practical PowerShell, Bash and batch-based tools for IT auditing, operational visibility, health checks, reporting and controlled endpoint remediation.
+## Core skills
 
-## Focus areas
+- Windows Server, Active Directory, Group Policy, DNS and infrastructure operations
+- Microsoft 365, Microsoft Entra ID, Intune and Exchange Online
+- PowerShell scripting, reporting and automation
+- Endpoint management, software updates and security posture checks
+- Linux system health, package update checks and basic hardening
+- GitHub Actions, repository governance, branch protection and public-safe release workflows
+- Documentation, troubleshooting and practical IT operations
 
-- Windows Server and Active Directory
-- Group Policy
-- Microsoft 365
-- Microsoft Entra ID
-- Microsoft Intune
-- Exchange Online
-- PowerShell automation
-- Linux Mint, Debian, Ubuntu and LMDE systems
-- Bash scripting
-- Endpoint management
-- IT auditing and reporting
-- Operational documentation
-- Public-safe scripting practices
-- Retro DOS healthcheck tooling
+## Featured projects
 
-## Featured work
+### GitHub repository security and governance
 
-### PowerShell Audit Scripts
+- [github-public-security-audit](https://github.com/Jarnon404/github-public-security-audit)  
+  Public-safe PowerShell tool for auditing GitHub repository security posture, workflows, branch protection, GitHub Pages status and static content findings across multiple repositories.
 
-Public-safe PowerShell audit and reporting toolkit for Windows Server, Active Directory, Group Policy, Microsoft 365, Exchange Online, Microsoft Entra ID and Microsoft Intune environments.
+### Windows Server and Active Directory auditing
 
-The repository demonstrates read-only audit scripting, structured reporting, GitHub Actions quality checks, Pester tests, PSScriptAnalyzer, secret scanning, public safety checks, MIT licensing, branch protection and GitHub Pages documentation.
+- [windows-server-audit-scripts](https://github.com/Jarnon404/windows-server-audit-scripts)  
+  Public-safe Windows Server and Domain Controller audit scripts with HTML/CSV reporting, repository tests, secret scanning and GitHub Pages documentation.
 
-- Repository: https://github.com/Jarnon404/powershell-audit-scripts
-- Documentation: https://jarnon404.github.io/powershell-audit-scripts/
+- [powershell-audit-scripts](https://github.com/Jarnon404/powershell-audit-scripts)  
+  Collection of practical PowerShell audit and reporting scripts for IT environments, built with public-safe repository structure and automated quality checks.
 
-### Intune Winget App Updater
+### Microsoft Intune and endpoint automation
 
-Controlled Microsoft Intune Proactive Remediation package for updating approved Windows applications with `winget`.
+- [intune-winget-app-updater](https://github.com/Jarnon404/intune-winget-app-updater)  
+  Intune-oriented WinGet application update automation package with detection, remediation, reporting and hybrid registry discovery logic.
 
-The repository includes detection and remediation scripts, offline technician tooling, GitHub Actions quality checks, Pester tests, PSScriptAnalyzer, secret scanning, public safety checks, MIT licensing, versioned releases and GitHub Pages documentation.
+### Linux and retro-computing utilities
 
-This repository is intentionally documented as a remediation package, not as a read-only audit project, because the remediation script can update applications on managed Windows devices.
+- [linux-health-security-audit](https://github.com/Jarnon404/linux-health-security-audit)  
+  Linux health and security audit script for checking updates, services, firewall status and system posture.
 
-- Repository: https://github.com/Jarnon404/intune-winget-app-updater
-- Documentation: https://jarnon404.github.io/intune-winget-app-updater/
+- [dos-healthcheck](https://github.com/Jarnon404/dos-healthcheck)  
+  DOS-style health check utility and documentation project. A small nod to the era when computers were simpler, louder and somehow still managed to ruin your evening.
 
-### Linux Health & Security Audit
+## Repository standards I use
 
-Read-only Bash audit tool for Debian, Ubuntu, Linux Mint and LMDE systems.
+My public repositories are built with a consistent structure:
 
-The repository generates TXT, HTML and JSON reports for Linux workstation and small server baseline checks. It focuses on system health, update status, kernel information, failed services, firewall state, SSH configuration, AppArmor status, disk usage, firmware tooling and other practical operational indicators.
+- Public-safe code with no customer-specific data
+- MIT license where suitable
+- README, SECURITY.md, VERSION.txt and checksums
+- GitHub Actions for script analysis, tests, secret scanning and public-safety checks
+- Branch protection with required checks
+- GitHub Pages documentation where useful
+- Sanitized examples and clear usage instructions
 
-The goal is simple: collect useful Linux health and security information without changing the system. Revolutionary stuff, apparently.
+## Current focus
 
-- Repository: https://github.com/Jarnon404/linux-health-security-audit
-- Documentation: https://jarnon404.github.io/linux-health-security-audit/
-- Release: https://github.com/Jarnon404/linux-health-security-audit/releases/tag/v1.1.0
+I am currently building and refining practical IT tools around:
 
-### DOS Healthcheck
+- PowerShell-based audit reporting
+- Microsoft Intune and endpoint update automation
+- GitHub repository security posture checks
+- Windows Server and AD operational reporting
+- Linux health and security checks
+- Clean public documentation for reusable IT scripts
 
-Retro-style DOS 3.x, 4.x, 5.x and 6.x system audit and health check toolkit using classic batch files and plain text reports.
+## Links
 
-This project is a small nod to where my IT path started: DOS PCs, conventional memory, `CONFIG.SYS`, `AUTOEXEC.BAT`, drivers, paths and the beautiful simplicity of text-based diagnostics. It includes a baseline `HEALTH.BAT` for DOS 3.x to 6.x and an extended `HEALTH6.BAT` for DOS 6.x systems.
+- Portfolio: [github.nousiainen.eu](https://github.nousiainen.eu)
+- GitHub: [github.com/Jarnon404](https://github.com/Jarnon404)
+- LinkedIn: [Jarno Nousiainen](https://www.linkedin.com/in/jarno-nousiainen/)
 
-It is intentionally simple, because DOS does not need a YAML pipeline, a Kubernetes operator or seventeen dashboards to tell you that conventional memory is tight.
+---
 
-- Repository: https://github.com/Jarnon404/dos-healthcheck
-- Documentation: https://jarnon404.github.io/dos-healthcheck/
-- Release: https://github.com/Jarnon404/dos-healthcheck/releases/tag/v1.0.0
-
-## Repository principles
-
-The repositories I publish are intended to be:
-
-- practical
-- documented
-- testable where useful
-- public-safe
-- reusable
-- clear about risk and operational impact
-- honest about whether they only audit or actually change something
-
-I prefer controlled scripts, readable output and explicit documentation over clever one-liners that become archaeology after six months.
-
-## Background
-
-I have worked with IT infrastructure, support, systems administration, identity, endpoint management and Microsoft environments across on-premises, hybrid and cloud-based setups.
-
-My work usually combines hands-on troubleshooting, scripting, documentation, operational improvement and translating technical issues into something people can actually act on.
-
-The technical timeline is fairly clear:
-
-```text
-DOS and classic PC troubleshooting
-→ Windows Server, Active Directory and Group Policy
-→ Microsoft 365, Entra ID, Exchange Online and Intune
-→ PowerShell automation and endpoint management
-→ Linux health and security auditing
+Practical IT automation, clear reporting and infrastructure tooling. Built from real operational needs, cleaned for public use.
