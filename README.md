@@ -42,6 +42,22 @@ I build practical tools for IT auditing, endpoint management, security reporting
 - [dos-healthcheck](https://github.com/Jarnon404/dos-healthcheck)  
   DOS-style health check utility and documentation project. A small nod to the era when computers were simpler, louder and somehow still managed to ruin your evening.
 
+## Current repository status
+
+My public GitHub portfolio is currently in stable maintenance mode.
+
+Summer freeze audit completed on 2026-07-10:
+
+- 8 public repositories reviewed
+- 292 PASS findings
+- 89 INFO findings
+- 1 WARN finding
+- 0 FAIL findings
+- 8 / 8 GitHub Pages sites reachable
+- 0 open pull requests
+
+The only remaining warning is a historical workflow failure in `dos-healthcheck`, not an active repository issue.
+
 ## Repository standards I use
 
 My public repositories are built with a consistent structure:
