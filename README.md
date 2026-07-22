@@ -46,12 +46,12 @@ I build practical tools for IT auditing, endpoint management, security reporting
 
 My public GitHub portfolio is currently in stable maintenance mode.
 
-Summer freeze audit completed on 2026-07-10:
+Latest public security audit completed on 2026-07-22:
 
-- 8 public repositories reviewed
-- 292 PASS findings
-- 89 INFO findings
-- 1 WARN finding
+- 9 public repositories reviewed
+- 326 PASS findings
+- 101 INFO findings
+- 2 WARN findings
 - 0 FAIL findings
 - 8 / 8 GitHub Pages sites reachable
 - 0 open pull requests
@@ -90,3 +90,10 @@ I am currently building and refining practical IT tools around:
 ---
 
 Practical IT automation, clear reporting and infrastructure tooling. Built from real operational needs, cleaned for public use.
+
+## Recent addition
+
+- [cpanel-backup-dr-toolkit](https://github.com/Jarnon404/cpanel-backup-dr-toolkit)  
+  Public-safe Bash toolkit for cPanel/shared hosting backups, offsite retention, validation, reporting and disaster recovery drills. Includes ShellCheck, gitleaks, branch protection, GitHub Pages documentation and a v1.0.0 release.
+
+
