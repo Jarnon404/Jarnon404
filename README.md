@@ -53,7 +53,7 @@ Latest public security audit completed on 2026-07-22:
 - 101 INFO findings
 - 2 WARN findings
 - 0 FAIL findings
-- 8 / 8 GitHub Pages sites reachable
+- 9 / 9 GitHub Pages sites reachable
 - 0 open pull requests
 
 The only remaining warning is a historical workflow failure in `dos-healthcheck`, not an active repository issue.
@@ -95,5 +95,6 @@ Practical IT automation, clear reporting and infrastructure tooling. Built from 
 
 - [cpanel-backup-dr-toolkit](https://github.com/Jarnon404/cpanel-backup-dr-toolkit)  
   Public-safe Bash toolkit for cPanel/shared hosting backups, offsite retention, validation, reporting and disaster recovery drills. Includes ShellCheck, gitleaks, branch protection, GitHub Pages documentation and a v1.0.0 release.
+
 
 
